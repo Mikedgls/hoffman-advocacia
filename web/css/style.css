@@ -1,0 +1,482 @@
+img {
+	display: block;
+	max-width: 100%;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+/*Header*/
+.bg-header {
+	width: 100%;
+	background-color: #900000;
+	padding: 2px 0px;
+	top: 0;
+	z-index: 12;
+	box-shadow: 0.1em 0.1em 0.5em;
+}
+
+.menu {
+	text-align: right;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.menu ul li a {
+	font-family: georgia, sans-serif;
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.menu a:hover {
+	padding-bottom: 3px;
+	border-bottom: 2px solid white;
+}
+
+
+
+/*Banner*/
+.banner {
+	width: 100%;
+	height: 310px;
+	background-image: url("../img/banner/banner.jpg");
+	padding: 60px 0px;
+
+}
+
+.banner-conteudo {
+	text-align: center;
+}
+
+.banner-conteudo h1 {
+	color: white;
+	font-family: georgia, sans-serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.banner-conteudo h1:after {
+	content: "";
+	display: block;
+	background-image: url("../img/banner/linha-banner.png");
+	margin: 0 auto;
+	width: 268px;
+	height: 17px;
+}
+
+.banner-conteudo h3 {
+	color: white;
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.banner-conteudo h2 {
+	color: white;
+	font-family: georgia, sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	margin-top: 20px;
+}
+
+
+/*Nosso Escritório*/
+
+.nosso-escritorio {
+	padding: 60px 0px;
+}
+
+.nosso-escritorio h2 {
+	font-family: georgia, sans-serif;
+	font-size: 24px;
+	color: #900000;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.nosso-escritorio h2:after {
+	content: "";
+	display: block;
+	background-image: url("../img/nosso-escritorio/linha-escritorio.png");
+	margin: 0 auto;
+	width: 201px;
+	height: 15px
+}
+
+.nosso-escritorio p {
+	font-family: georgia, sans-serif;
+	font-size: 14px;
+	color: black;
+	line-height: 20px;
+}
+
+.nosso-escritorio img {
+	 box-shadow: 0.1em 0.1em 0.5em;
+	 margin-top: 20px;
+}
+
+/*Nosso Conceito*/
+
+.conceito-bg {
+	width: 100%;
+	padding: 60px 0px;
+	background-color: #900000;
+}
+
+.nosso-conceito h2 {
+	font-family: georgia, sans-serif;
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.nosso-conceito h2:after {
+	content: "";
+	display: block;
+	background-image: url("../img/nosso-conceito/linha.png");
+	margin: 0 auto;
+	width: 201px;
+	height: 15px
+}
+
+.nosso-conceito li {
+	background-color: white;
+	box-shadow: 0.1em 0.1em 0.5em;
+	display: inline-block;
+}
+
+.conceito-icone {
+	background-color: #151515;
+	padding: 10px 0px;
+}
+
+.conceito-icone img {
+	margin: 0 auto;
+}
+
+.nosso-conceito h3 {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.nosso-conceito h3:after {
+	content: "";
+	display: block;
+	background-image: url("../img/nosso-conceito/linha-red.png");
+	margin: 0 auto;
+	width: 108px;
+	height: 9px;
+}
+
+.nosso-conceito p {
+	font-family: georgia, sans-serif;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	max-width: 280px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+/*Áreas de atuação*/
+
+.atuacao {
+	padding: 60px 0px;
+}
+
+.atuacao li {
+	box-shadow: 0.1em 0.1em 0.5em;
+}
+
+.atuacao h2 {
+	font-family: georgia, sans-serif;
+	font-size: 24px;
+	color: #900000;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.atuacao h2:after {
+	content: "";
+	display: block;
+	background-image: url("../img/area-de-atuacao/linha-atuacao.png");
+	margin: 0 auto;
+	width: 201px;
+	height: 15px
+}
+
+.atuacao h3 {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.atuacao li {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.img-1 {
+	background-image: url("../img/area-de-atuacao/direito-criminal.jpg");
+	height: 160px;
+}
+
+.img-2 {
+	background-image: url("../img/area-de-atuacao/direito-previdenciario.jpg");
+	height: 160px;
+}
+.img-3 {
+	background-image: url("../img/area-de-atuacao/direito-empresarial.jpg");
+	height: 160px;
+}
+.img-4 {
+	background-image: url("../img/area-de-atuacao/direito-imobiliario.jpg");
+	height: 160px;
+}
+.img-5 {
+	background-image: url("../img/area-de-atuacao/direito-civil.jpg");
+	height: 160px;
+}
+.img-6 {
+	background-image: url("../img/area-de-atuacao/direito-do-consumidor.jpg");
+	height: 160px;
+}
+
+
+
+/*Nossa equipe*/
+
+.equipe-bg {
+	width: 100%;
+	background-color: #900000;
+	padding: 60px 0px;
+}
+
+.nossa-equipe h2 {
+	font-family: georgia, sans-serif;
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.nossa-equipe h2:after {
+	content: "";
+	display: block;
+	background-image: url("../img/nossa-equipe/linha.png");
+	margin: 0 auto;
+	width: 201px;
+	height: 15px;
+}
+
+.nossa-equipe img {
+	box-shadow: 0.1em 0.1em 0.5em;
+}	
+
+.nossa-equipe ul {
+	padding-top: 20px;
+	clear: both;
+}
+
+.nossa-equipe li {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+	text-shadow: black 0.05em 0.05em 0.1em;
+}
+
+
+
+/*Contato*/
+
+.contato {
+	padding: 60px 0px;
+}
+
+.contato h2 {
+	font-family: georgia, sans-serif;
+	font-size: 24px;
+	color: #900000;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contato h2:after {
+	content: "";
+	display: block;
+	background-image: url("../img/contato/linha.png");
+	margin: 0 auto;
+	width: 201px;
+	height: 15px
+}
+
+.form {
+	padding-right: 60px;
+}
+
+.form label {
+	display: block;
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	color: black;
+	margin-bottom: 4px;
+	font-weight: bold;
+}
+
+.form input {
+	display: block;
+	width: 100%;
+	border: 4px solid #900000;
+	padding: 3px 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: georgia, sans-serif;
+	margin-bottom: 10px;
+	
+}
+
+.form textarea {
+	display: block;
+	width: 100%;
+	border: 4px solid #900000;
+	padding: 3px 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: georgia, sans-serif;
+	margin-bottom: 10px;
+	height: 120px;
+}
+
+.form button {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background-color: #900000; 
+	border: 4px solid black;
+	padding: 3px 20px;
+	transition: all .5s ease;
+}
+
+.form button:hover {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	background-color: #900000; 
+	border: 4px solid black;
+	padding: 3px 20px;
+}
+
+.dados h3 {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+.dados li {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	margin-top: 10px;
+
+}
+
+.dados span {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #900000;
+}
+
+.dados ul {
+	margin-bottom: 40px;
+}
+
+.redes-sociais li {
+	display: inline-block;
+	margin-right: 20px;
+	border: 4px solid #900000;
+	padding: 5px 5px;
+	transition: all .5s ease;
+}
+
+.redes-sociais li:hover {
+	border: 4px solid black;
+}
+
+.mapa {
+	padding-top:  40px;
+}
+
+.mapa h3 {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	color: #900000;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.mapa span {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+/*Footer*/
+
+.footer-bg {
+	padding: 20px 0px;
+	width: 100%;
+	background-color: #900000;
+}
+
+.footer h3, a {
+	color: white;
+	font-family: georgia, sans-serif
+	font-size: 18px;
+	text-shadow: black 0.05em 0.05em 0.1em;
+}

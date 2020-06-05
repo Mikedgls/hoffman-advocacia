@@ -1,0 +1,74 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+	
+/*Header*/
+
+.bg-header img {
+	margin: 0 auto;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu ul li a {
+	border: 4px solid white;
+	width: 140px;
+	display: block;
+	float: left;
+	padding: 3px 10px;
+}
+
+.menu ul li {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.menu a:hover {
+	padding: : 0;
+	border:  4px solid black; ;
+}
+
+
+
+/*Banner*/
+.banner {
+	margin-top: 0;
+	padding: 10px 0;
+
+}
+
+
+/*Contato*/
+.form {
+	padding: 0px;
+}
+
+.form button {
+	padding: 3px 30px;
+}
+
+.form button:hover {
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	background-color: #900000; 
+	border: 4px solid black;
+	padding: 3px 30px;
+}
+
+.dados {
+	margin-top: 20px;
+}
+
+.mapa {
+	padding-top: 0;
+}
+
